@@ -4,11 +4,8 @@
 // RightDrive           motor         1               
 // LeftDrive            motor         10              
 // ---- END VEXCODE CONFIGURED DEVICES ----
-// ---- START VEXCODE CONFIGURED DEVICES ----
-// Robot Configuration:
-// [Name]               [Type]        [Port(s)]
-// RightDrive           motor         1               
-// ---- END VEXCODE CONFIGURED DEVICES ----
+
+
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
 /*    Module:       main.cpp                                                  */
