@@ -12,6 +12,7 @@
 
 #include "vex.h"
 #include "selector.h" 
+#include "autons.h"
 
 using namespace vex;
 
@@ -50,7 +51,7 @@ void autonomous(void) {
 
   }
   else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
-
+    blueGoldAutonStart();
   }
 }
 
