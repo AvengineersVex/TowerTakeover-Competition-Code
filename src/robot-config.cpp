@@ -11,11 +11,11 @@ brain::lcd Screen;
 // VEXcode device constructors
 motor RightDrive = motor(PORT1, ratio6_1, true);
 motor LeftDrive = motor(PORT10, ratio6_1, false);
-motor RightIntake = motor(PORT9, ratio6_1, true);
-motor LeftIntake = motor(PORT2, ratio6_1, true);
+motor RightIntake = motor(PORT11, ratio6_1, false);
+motor LeftIntake = motor(PORT13, ratio6_1, true);
 
 controller Controller1 = controller(primary);
-sonar Sonar = sonar(Brain.ThreeWirePort.A);
+sonar Sonar = sonar(Brain.ThreeWirePort.G);
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable

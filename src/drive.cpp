@@ -24,6 +24,10 @@ int intakeTask() {
       RightIntake.spin(fwd);
       LeftIntake.spin(fwd);
     }
+    while (Controller1.ButtonR2.pressing() && Controller1.ButtonL2.pressing()) {
+      RightIntake.spin(reverse);
+      LeftIntake.spin(reverse);
+    }
     RightIntake.stop();
     LeftIntake.stop();
   }

@@ -41,19 +41,19 @@ void pre_auton(void) {
 void autonomous(void) {
   int autonSelect = returnAutonSelection();
   int allianceSelect = returnAllianceSelection();
-  if (allianceSelect == 0 && autonSelect == 0) { // Red - Purple
+  // if (allianceSelect == 0 && autonSelect == 0) { // Red - Purple
 
-  }
-  else if (allianceSelect == 0 && autonSelect == 1) { // Red - Gold
+  // }
+  // else if (allianceSelect == 0 && autonSelect == 1) { // Red - Gold
 
-  }
-  else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Purple
+  // }
+  // else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Purple
 
-  }
-  else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
-    blueGoldAutonStart();
-  }
-  else {
+  // }
+  // else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
+  //   blueGoldAutonStart();
+  // }
+  // else {
     RightDrive.setVelocity(50, pct);
     LeftDrive.setVelocity(50, pct);
     RightDrive.spin(fwd);
@@ -64,7 +64,7 @@ void autonomous(void) {
     wait(1, seconds);
     RightDrive.stop();
     LeftDrive.stop();
-  }
+  // }
 }
 
 /*---------------------------------------------------------------------------*/
