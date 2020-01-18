@@ -27,7 +27,10 @@ void turnLeft(){
 }
 
 void stop(){
-
+  RightDrive.stop();
+  LeftDrive.stop();
+  RightIntake.stop();
+  LeftIntake.stop();
 }
 
 void blueGoldAutonStart() {
@@ -36,12 +39,19 @@ void blueGoldAutonStart() {
     movething(directionType::fwd);
   }
   
+  stop();
+
   while (abs((int) (Sonar.distance(distanceUnits::in) - 42.5)) > 2.5){
     turnLeft();
   }
 
+  stop();
+
   while (Sonar.distance(distanceUnits::in) > 9){
     goForward();
   }
+
+  stop();
+  
   movething(directionType::rev);
 }
