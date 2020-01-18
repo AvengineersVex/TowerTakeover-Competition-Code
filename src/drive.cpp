@@ -9,7 +9,7 @@ void mainDriveStart() {
   RightDrive.spin(fwd);
   LeftDrive.spin(fwd);
   while (true) {
-    RightDrive.setVelocity(Controller1.Axis3.value() / 3.2, velocityUnits::pct);
-    LeftDrive.setVelocity(Controller1.Axis3.value() / 3.2, velocityUnits::pct);
+    RightDrive.setVelocity(Controller1.Axis2.value(), velocityUnits::pct);
+    LeftDrive.setVelocity(Controller1.Axis3.value(), velocityUnits::pct);
   }
 }

@@ -26,6 +26,7 @@
 #include "vex.h"
 #include "selector.h" 
 #include "autons.h"
+#include "drive.h"
 
 using namespace vex;
 
@@ -77,7 +78,7 @@ void autonomous(void) {
 void usercontrol(void) {
   // User control code here, inside the loop
   while (1) {
-
+    mainDriveStart();
     wait(20, msec);
   }
 }
