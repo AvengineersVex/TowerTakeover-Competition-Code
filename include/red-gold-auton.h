@@ -1,1 +1,1 @@
-void blueGoldAutonStart();
+void redGoldAutonStart();

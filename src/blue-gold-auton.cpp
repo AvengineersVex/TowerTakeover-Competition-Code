@@ -1,4 +1,5 @@
-#include "vex.h";
+#include "vex.h"
+#include "autons.h"
 using namespace vex;
 
 void go(directionType r, directionType l){
@@ -31,7 +32,7 @@ void blueGoldAutonStart() {
     movething(directionType::fwd);
   }
   
-  while (abs(Sonar.distance(distanceUnits::in) - 42.5) > 2.5){
+  while (abs((int) (Sonar.distance(distanceUnits::in) - 42.5)) > 2.5){
     turnLeft();
   }
 
