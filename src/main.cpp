@@ -130,13 +130,13 @@ void autonomous(void) {
   int autonSelect = returnAutonSelection();
   int allianceSelect = returnAllianceSelection();
   if (allianceSelect == 0 && autonSelect == 0) { // Red - Purple
-
+    redPurpleAutonStart();
   }
   else if (allianceSelect == 0 && autonSelect == 1) { // Red - Gold
-
+    redGoldAutonStart();
   }
   else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Purple
-
+    bluePurpleAutonStart();
   }
   else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
     blueGoldAutonStart();
