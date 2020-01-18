@@ -3,6 +3,163 @@
 // [Name]               [Type]        [Port(s)]
 // RightDrive           motor         1               
 // LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// Sonar                sonar         A, B            
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// Sonar                sonar         A, B            
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Sonar                sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// Up1                  motor         5               
+// Up2                  motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Sonar                sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// Up1                  motor         5               
+// Up2                  motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Sonar                sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// Up1                  motor         5               
+// Up2                  motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Sonar                sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// Up1                  motor         5               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// Sonar                sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// sonar                sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RangeFinderA         sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RangeFinderA         sonar         A, B            
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RangeFinderA         sonar         A, B            
+// RightDrive           motor         1               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RangeFinderA         sonar         A, B            
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
 // Controller1          controller                    
 // ---- END VEXCODE CONFIGURED DEVICES ----
 // ---- START VEXCODE CONFIGURED DEVICES ----
@@ -56,13 +213,13 @@ void autonomous(void) {
   int autonSelect = returnAutonSelection();
   int allianceSelect = returnAllianceSelection();
   if (allianceSelect == 0 && autonSelect == 0) { // Red - Purple
-
+    redPurpleAutonStart();
   }
   else if (allianceSelect == 0 && autonSelect == 1) { // Red - Gold
-
+    redGoldAutonStart();
   }
   else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Purple
-
+    bluePurpleAutonStart();
   }
   else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
     blueGoldAutonStart();
@@ -76,8 +233,8 @@ void autonomous(void) {
 /*---------------------------------------------------------------------------*/
 
 void usercontrol(void) {
+  // User control code here, inside the loop
   while (1) {
-    task intake(intakeTask, 1);
     mainDriveStart();
     wait(20, msec);
   }

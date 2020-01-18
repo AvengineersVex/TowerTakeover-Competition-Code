@@ -6,17 +6,14 @@ using code = vision::code;
 
 // A global instance of brain used for printing to the V5 Brain screen
 brain  Brain;
-brain::lcd Screen;
-
 
 // VEXcode device constructors
 motor RightDrive = motor(PORT1, ratio6_1, true);
 motor LeftDrive = motor(PORT10, ratio6_1, false);
 motor RightIntake = motor(PORT11, ratio6_1, true);
 motor LeftIntake = motor(PORT15, ratio6_1, true);
-
 controller Controller1 = controller(primary);
-
+sonar Sonar = sonar(Brain.ThreeWirePort.A);
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable
