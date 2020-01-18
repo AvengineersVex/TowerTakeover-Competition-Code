@@ -1,4 +1,4 @@
-Port 1:
+Port 1: Front Right Motor - Speed
 Port 2:
 Port 3:
 Port 4:
