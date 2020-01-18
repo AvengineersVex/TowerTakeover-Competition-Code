@@ -150,8 +150,8 @@ void autonomous(void) {
 /*---------------------------------------------------------------------------*/
 
 void usercontrol(void) {
-  // User control code here, inside the loop
   while (1) {
+    task intake(intakeTask, 1);
     mainDriveStart();
     wait(20, msec);
   }

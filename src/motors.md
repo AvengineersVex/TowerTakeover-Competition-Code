@@ -8,11 +8,11 @@ Port 7:
 Port 8:
 Port 9:
 Port 10:
-Port 11:
+Port 11: Right Intake Motor - Speed
 Port 12:
 Port 13:
 Port 14:
-Port 15:
+Port 15: Left Intake Motor - Speed
 Port 16:
 Port 17:
 Port 18:
