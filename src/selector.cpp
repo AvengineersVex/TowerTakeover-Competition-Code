@@ -3,6 +3,9 @@
     0 - red
     1 - blue
     2 - skills
+  auton variable:
+    0 - purple
+    1 - gold
 */
 
 #include "vex.h"
@@ -14,9 +17,17 @@ extern brain::lcd Screen;
 void pressedCallback();
 void detectAlliance(int xPosIn, int yPosIn);
 void autonSlector();
+int gOp(int xPosIn, int yPosIn);
 
-int progress, alliance;
+int progress, alliance, auton;
 
+int returnAutonSelection() {
+  return auton;
+}
+
+int returnAllianceSelection() {
+  return alliance;
+}
 void startUp() {
   progress = 0;
   Screen.pressed(pressedCallback);
@@ -34,6 +45,10 @@ void pressedCallback() {
   int yPos = Screen.yPosition();
   if (progress == 0) {
     detectAlliance(xPos, yPos);
+  }
+  else if (progress == 2) {
+    printf("gOp activated\n");
+    auton = gOp(xPos, yPos);
   }
 }
 
@@ -62,10 +77,24 @@ void autonSlector() {
     Screen.printAt(110, 50, "Auton Selection");
     Screen.drawRectangle(100, 80, 100, 80, purple);
     Screen.drawRectangle(280, 80, 100, 80, yellow);
+    progress++;
   }
   else if (alliance == 1) { // Blue Alliance
     Screen.printAt(110, 50, "Auton Selection");
     Screen.drawRectangle(100, 80, 100, 80, purple);
     Screen.drawRectangle(280, 80, 100, 80, yellow);
+    progress++;
   }
+}
+
+int gOp(int xPosIn, int yPosIn) {
+  if (100 < xPosIn && xPosIn < 200 && 80 < yPosIn && yPosIn < 160) {
+    Screen.clearScreen();
+    return 0;
+  }
+  else if (280 < xPosIn && xPosIn < 380 && 80 < yPosIn && yPosIn < 160) {
+    Screen.clearScreen();
+    return 1;
+  }
+  return -1;
 }
