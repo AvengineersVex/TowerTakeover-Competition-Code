@@ -21,8 +21,8 @@ void goForward(){
   go(directionType::fwd, directionType::fwd);
 }
 
-void turnRight(){
-  go(directionType::fwd, directionType::rev);
+void turnLeft(){
+  go(directionType::rev, directionType::fwd);
 }
 
 void blueGoldAutonStart() {
@@ -32,7 +32,7 @@ void blueGoldAutonStart() {
   }
   
   while (abs(Sonar.distance(distanceUnits::in) - 42.5) > 2.5){
-    turnRight();
+    turnLeft();
   }
 
   while (Sonar.distance(distanceUnits::in) > 9){

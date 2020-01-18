@@ -2,10 +2,6 @@
 #include "blue-gold-auton.h";
 using namespace vex;
 
-void turnLeft(){
-  go(directionType::rev, directionType::fwd);
-}
-
 void redGoldAutonStart() {
   while (Sonar.distance(distanceUnits::in) <= 30){
     goForward();

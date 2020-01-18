@@ -1,1 +1,1 @@
-void turnLeft();
+void blueGoldAutonStart();
