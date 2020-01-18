@@ -11,11 +11,11 @@ void go(directionType r, directionType l){
 }
 
 void movething(directionType a){
-  Up1.setVelocity(100, velocityUnits::pct);
-  Up2.setVelocity(100, velocityUnits::pct);
+  RightIntake.setVelocity(100, velocityUnits::pct);
+  LeftIntake.setVelocity(100, velocityUnits::pct);
 
-  Up1.spin(a);
-  Up2.spin(a);
+  RightIntake.spin(a);
+  LeftIntake.spin(a);
 }
 
 void goForward(){
@@ -24,6 +24,10 @@ void goForward(){
 
 void turnLeft(){
   go(directionType::rev, directionType::fwd);
+}
+
+void stop(){
+
 }
 
 void blueGoldAutonStart() {
