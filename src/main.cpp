@@ -2,6 +2,84 @@
 // Robot Configuration:
 // [Name]               [Type]        [Port(s)]
 // RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// Sonar                sonar         A, B            
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// Sonar                sonar         A, B            
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// Controller1          controller                    
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// LeftIntake           motor         15              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// RightIntake          motor         11              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// LeftDrive            motor         10              
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
+// ---- END VEXCODE CONFIGURED DEVICES ----
+// ---- START VEXCODE CONFIGURED DEVICES ----
+// Robot Configuration:
+// [Name]               [Type]        [Port(s)]
+// RightDrive           motor         1               
 // ---- END VEXCODE CONFIGURED DEVICES ----
 // ---- START VEXCODE CONFIGURED DEVICES ----
 // Robot Configuration:

@@ -13,6 +13,7 @@ motor LeftDrive = motor(PORT10, ratio6_1, false);
 motor RightIntake = motor(PORT11, ratio6_1, true);
 motor LeftIntake = motor(PORT15, ratio6_1, true);
 controller Controller1 = controller(primary);
+sonar Sonar = sonar(Brain.ThreeWirePort.A);
 
 // VEXcode generated functions
 // define variable for remote controller enable/disable
