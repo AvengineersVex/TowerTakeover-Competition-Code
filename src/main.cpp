@@ -1,17 +1,3 @@
-// ---- START VEXCODE CONFIGURED DEVICES ----
-// Robot Configuration:
-// [Name]               [Type]        [Port(s)]
-// RightDrive           motor         1               
-// LeftDrive            motor         10              
-// Controller1          controller                    
-// ---- END VEXCODE CONFIGURED DEVICES ----
-// ---- START VEXCODE CONFIGURED DEVICES ----
-// Robot Configuration:
-// [Name]               [Type]        [Port(s)]
-// RightDrive           motor         1               
-// LeftDrive            motor         10              
-// ---- END VEXCODE CONFIGURED DEVICES ----
-
 
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
@@ -53,7 +39,6 @@ void pre_auton(void) {
 /*---------------------------------------------------------------------------*/
 
 void autonomous(void) {
-  RightDrive.setVelocity(50, pct);
   LeftDrive.setVelocity(50, pct);
   RightDrive.spin(fwd);
   LeftDrive.spin(fwd);
@@ -78,22 +63,6 @@ void autonomous(void) {
   //   blueGoldAutonStart();
   // }
 }
-
-/*---------------------------------------------------------------------------*/
-/*                                                                           */
-/*                              User Control Task                            */
-/*                                                                           */
-/*---------------------------------------------------------------------------*/
-
-void usercontrol(void) {
-  while (1) {
-    task intake(intakeTask, 1);
-    mainDriveStart();
-    wait(20, msec);
-  }
-}
-
-int main() {
   Competition.autonomous(autonomous);
   Competition.drivercontrol(usercontrol);
 
