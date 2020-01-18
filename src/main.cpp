@@ -54,8 +54,8 @@ void autonomous(void) {
   //   blueGoldAutonStart();
   // }
   // else {
-    RightDrive.setVelocity(50, pct);
-    LeftDrive.setVelocity(50, pct);
+    RightDrive.setVelocity(127, pct);
+    LeftDrive.setVelocity(127, pct);
     RightDrive.spin(fwd);
     LeftDrive.spin(fwd);
     wait(1, seconds);

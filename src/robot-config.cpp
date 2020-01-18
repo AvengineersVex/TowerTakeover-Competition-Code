@@ -9,8 +9,8 @@ brain  Brain;
 brain::lcd Screen;
 
 // VEXcode device constructors
-motor RightDrive = motor(PORT1, ratio6_1, true);
-motor LeftDrive = motor(PORT10, ratio6_1, false);
+motor RightDrive = motor(PORT1, ratio18_1, true);
+motor LeftDrive = motor(PORT10, ratio18_1, false);
 motor RightIntake = motor(PORT11, ratio6_1, false);
 motor LeftIntake = motor(PORT13, ratio6_1, true);
 
