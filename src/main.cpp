@@ -76,7 +76,8 @@ void autonomous(void) {
 void usercontrol(void) {
   while (1) {
     task intake(intakeTask, 1);
-    mainDriveStart();
+    task maindrive(mainDrive, 2);
+    turnDrive();
     wait(20, msec);
   }
 }

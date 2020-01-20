@@ -7,12 +7,24 @@ extern motor LeftDrive;
 extern motor RightIntake;
 extern motor LeftIntake;
 
-void mainDriveStart() {
+int mainDrive() {
   RightDrive.spin(fwd);
   LeftDrive.spin(fwd);
   while (true) {
-    RightDrive.setVelocity(Controller1.Axis2.value(), velocityUnits::pct);
+    RightDrive.setVelocity(Controller1.Axis3.value(), velocityUnits::pct);
     LeftDrive.setVelocity(Controller1.Axis3.value(), velocityUnits::pct);
+    wait(20, msec);
+  }
+  return 0;
+}
+
+void turnDrive() {
+  while (true) {
+    while (abs(Controller1.Axis1.value()) > 20) {
+      RightDrive.setVelocity(-Controller1.Axis1.value(), velocityUnits::pct);
+      LeftDrive.setVelocity(Controller1.Axis1.value(), velocityUnits::pct);
+    }
+    wait(20, msec);
   }
 }
 
@@ -30,6 +42,7 @@ int intakeTask() {
     }
     RightIntake.stop();
     LeftIntake.stop();
+    wait(20, msec);
   }
   return 0;
 }
