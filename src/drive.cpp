@@ -6,6 +6,7 @@ extern motor RightDrive;
 extern motor LeftDrive;
 extern motor RightIntake;
 extern motor LeftIntake;
+extern motor IntakeLift;
 
 int mainDrive() {
   RightDrive.spin(fwd);
@@ -18,6 +19,14 @@ int mainDrive() {
     RightDrive.setVelocity(Controller1.Axis3.value(), velocityUnits::pct);
     LeftDrive.setVelocity(Controller1.Axis3.value(), velocityUnits::pct);
     wait(20, msec);
+    while (Controller1.ButtonUp.pressing()) {
+      IntakeLift.setVelocity(100, pct);
+      IntakeLift.spin(fwd);
+    }
+    while (Controller1.ButtonDown.pressing()) {
+      IntakeLift.setVelocity(100, pct);
+      IntakeLift.spin(reverse);
+    }
   }
   return 0;
 }

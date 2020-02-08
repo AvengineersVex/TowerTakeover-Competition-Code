@@ -1,4 +1,3 @@
-
 /*----------------------------------------------------------------------------*/
 /*                                                                            */
 /*    Module:       main.cpp                                                  */
@@ -13,6 +12,7 @@
 #include "selector.h" 
 #include "autons.h"
 #include "drive.h"
+#include "stacker.h"
 
 using namespace vex;
 
@@ -54,16 +54,16 @@ void autonomous(void) {
   //   blueGoldAutonStart();
   // }
   // else {
-    RightDrive.setVelocity(127, pct);
-    LeftDrive.setVelocity(127, pct);
-    RightDrive.spin(fwd);
-    LeftDrive.spin(fwd);
-    wait(4, seconds);
-    RightDrive.spin(reverse);
-    LeftDrive.spin(reverse);
-    wait(2, seconds);
-    RightDrive.stop();
-    LeftDrive.stop();
+  RightDrive.setVelocity(127, pct);
+  LeftDrive.setVelocity(127, pct);
+  RightDrive.spin(fwd);
+  LeftDrive.spin(fwd);
+  wait(4, seconds);
+  RightDrive.spin(reverse);
+  LeftDrive.spin(reverse);
+  wait(2, seconds);
+  RightDrive.stop();
+  LeftDrive.stop();
   // }
 }
 
@@ -76,6 +76,7 @@ void autonomous(void) {
 void usercontrol(void) {
   while (1) {
     task intake(intakeTask, 1);
+    task stacker(stackerStart, 1);
     mainDrive();
     wait(20, msec);
   }

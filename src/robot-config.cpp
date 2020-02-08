@@ -9,10 +9,12 @@ brain  Brain;
 brain::lcd Screen;
 
 // VEXcode device constructors
-motor RightDrive = motor(PORT19, ratio18_1, true);
-motor LeftDrive = motor(PORT20, ratio18_1, false);
+motor RightDrive = motor(PORT12, ratio18_1, true);
+motor LeftDrive = motor(PORT15, ratio18_1, false);
 motor RightIntake = motor(PORT11, ratio6_1, false);
 motor LeftIntake = motor(PORT13, ratio6_1, true);
+motor PusherMotor = motor(PORT10, ratio36_1, true);
+motor IntakeLift = motor(PORT9, ratio18_1, false);
 
 controller Controller1 = controller(primary);
 sonar Sonar = sonar(Brain.ThreeWirePort.G);
