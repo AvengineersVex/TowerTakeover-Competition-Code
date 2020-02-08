@@ -5,16 +5,16 @@ extern motor PusherMotor;
 
 int stackerStart() {
   while (true) {
+    PusherMotor.setVelocity(50, percentUnits::pct);
     while (Controller1.ButtonX.pressing()) {
-      PusherMotor.setVelocity(100, percentUnits::pct);
       PusherMotor.spin(fwd);
     }
     while (Controller1.ButtonB.pressing()) {
-      PusherMotor.setVelocity(100, percentUnits::pct);
       PusherMotor.spin(reverse
       );
     }
     PusherMotor.stop();
+    wait(20, msec);
   }
   return 0;
 }
