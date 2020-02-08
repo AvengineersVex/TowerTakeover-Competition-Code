@@ -9,7 +9,7 @@ extern motor LeftIntake;
 extern motor IntakeLift;
 
 int mainDrive() {
-  IntakeLift.setVelocity(100, pct);
+  IntakeLift.setVelocity(50,pct);
   RightDrive.spin(fwd);
   LeftDrive.spin(fwd);
   while (true) {

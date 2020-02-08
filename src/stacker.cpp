@@ -10,8 +10,7 @@ int stackerStart() {
       PusherMotor.spin(fwd);
     }
     while (Controller1.ButtonB.pressing()) {
-      PusherMotor.spin(reverse
-      );
+      PusherMotor.spin(reverse);
     }
     PusherMotor.stop();
     wait(20, msec);
