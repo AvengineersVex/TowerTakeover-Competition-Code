@@ -41,32 +41,19 @@ void pre_auton(void) {
 void autonomous(void) {
   int autonSelect = returnAutonSelection();
   int allianceSelect = returnAllianceSelection();
-  // if (allianceSelect == 0 && autonSelect == 0) { // Red - Purple
+  if (allianceSelect == 0 && autonSelect == 0) { // Red - Purple
+    OneBlockPushStart();
+  }
+  else if (allianceSelect == 0 && autonSelect == 1) { // Red - Gold
 
-  // }
-  // else if (allianceSelect == 0 && autonSelect == 1) { // Red - Gold
-
-  // }
-  // else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Purple
-
-  // }
-  // else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
-  //   blueGoldAutonStart();
-  // }
-  // else {
-  RightDrive.setVelocity(127, pct);
-  LeftDrive.setVelocity(127, pct);
-  RightDrive.spin(fwd);
-  LeftDrive.spin(fwd);
-  wait(4, seconds);
-  RightDrive.spin(reverse);
-  LeftDrive.spin(reverse);
-  wait(2, seconds);
-  RightDrive.stop();
-  LeftDrive.stop();
-  // }
+  }
+  else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Purple
+    OneBlockPushStart();
+  }
+  else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
+    blueGoldAutonStart();
+  }
 }
-
 /*---------------------------------------------------------------------------*/
 /*                                                                           */
 /*                              User Control Task                            */
