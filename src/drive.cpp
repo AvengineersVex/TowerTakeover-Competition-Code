@@ -44,10 +44,16 @@ int intakeTask() {
     RightIntake.setVelocity(127, percentUnits::pct);
     LeftIntake.setVelocity(127, percentUnits::pct);
     while (Controller1.ButtonR1.pressing() && Controller1.ButtonL1.pressing()) {
+      RightIntake.spin(reverse);
+      LeftIntake.spin(reverse);
+    }
+    while (Controller1.ButtonR2.pressing() && Controller1.ButtonL2.pressing()) {
       RightIntake.spin(fwd);
       LeftIntake.spin(fwd);
     }
-    while (Controller1.ButtonR2.pressing() && Controller1.ButtonL2.pressing()) {
+    while (Controller1.ButtonLeft.pressing()) {
+      RightIntake.setVelocity(30, percentUnits::pct);
+      LeftIntake.setVelocity(30, percentUnits::pct);
       RightIntake.spin(reverse);
       LeftIntake.spin(reverse);
     }
