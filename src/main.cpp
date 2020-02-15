@@ -16,6 +16,9 @@
 
 using namespace vex;
 
+extern motor RightIntakeLift;
+extern motor LeftIntakeLift;
+
 // A global instance of competition
 competition Competition;
 
@@ -53,6 +56,8 @@ void autonomous(void) {
   // else if (allianceSelect == 1 && autonSelect == 0) { // Blue - Gold
   //   blueGoldAutonStart();
   // }
+  RightIntakeLift.startSpinTo(5.5, rotationUnits::deg);
+  LeftIntakeLift.startSpinTo(5.5, rotationUnits::deg);
   RightDrive.setVelocity(127, pct);
   LeftDrive.setVelocity(127, pct);
   RightDrive.spin(fwd);
