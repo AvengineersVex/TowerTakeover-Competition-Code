@@ -22,13 +22,13 @@ int mainDrive() {
       LeftDrive.setVelocity(Controller1.Axis1.value() + 27, velocityUnits::pct);
     }
     while (Controller1.ButtonUp.pressing()) {
-      RightIntakeLift.spin(fwd);
-      LeftIntakeLift.spin(fwd);
+      RightIntakeLift.spin(reverse);
+      LeftIntakeLift.spin(reverse);
     }
     
     while (Controller1.ButtonDown.pressing()) {
-      RightIntakeLift.spin(reverse);
-      LeftIntakeLift.spin(reverse);
+      RightIntakeLift.spin(fwd);
+      LeftIntakeLift.spin(fwd);
     }
   RightIntakeLift.stop();
   LeftIntakeLift.stop();
